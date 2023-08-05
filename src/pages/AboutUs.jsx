@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import aboutus from '../images/aboutusit.jpg'
 import './AboutUs.css'
 import Carousel from '../components/Carousel'
+import AboutusCards from '../utils/AboutusCards'
 
 const AboutUs = () => {
     return (
@@ -37,14 +38,10 @@ const AboutUs = () => {
                             <div editable="rich">
                                 <p className="lead text-secondary">
                                     {" "}
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et
-                                    metus id ligula malesuada placerat sit amet quis enim. Aliquam
-                                    erat volutpat. In pellentesque scelerisque auctor.&nbsp;
+                                    At codenexus we offer IT software courses. The purpose of our training programs is to prepare our upcoming IT software engineers for a successful career in the IT industry. &nbsp;
                                 </p>
                                 <p className="lead text-secondary">
-                                    Ut porta lacus eget nisi fermentum lobortis. Vestibulum facilisis
-                                    tempor ipsum, ut rhoncus magna ultricies laoreet. Proin vehicula
-                                    erat eget libero accumsan iaculis.{" "}
+                                    For the accomplishment of this aim we proceed from various steps like doubt sessions our held after class hours which allows students to remove their hurdle point for moving further.{" "}
                                 </p>
                             </div>
                         </div>
@@ -58,174 +55,90 @@ const AboutUs = () => {
             </div>
             <div className='m-5 hello_font' >
                 <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
-                    ABOUT US: A Value – Driven Software Development Platform
+                    What CODENEXUS Does?
                 </li>
                 <p className='mx-2 px-4' >
 
                     <div style={{ marginTop: "25px" }} >  </div>
 
-                    <span style={{ fontWeight: '550', color: 'orange' }} > CodeNexus </span>
+                    <span style={{ fontWeight: '550', color: 'orange' }} > At codenexus </span>
 
-                    is one among a couple of driving organizations in Delhi, Noida, NCR, India that give undeniable preparation in Data Science, Machine learning, Python programming, Tableau, Deep Learning, and Artificial Intelligence. We at the college target producing quality experts who can withstand the developing contest and rising intricacies in the innovative world. We are growing and leading the company of Delhi, Noida, NCR, India.
-
-                    <div style={{ marginTop: "25px" }} >  </div>
-
-
-
-                    The instructional courses are given by experienced experts who have solid industry information and ability in the field of information science. With our positive quality and cost-adequacy, we stand apart as an establishment with a distinction, and the one that has been fruitful in changing the existences of people who wish to leave an imprint in the field of information science.
+                    we offer IT software courses. The purpose of our training programs is to prepare our upcoming IT software engineers for a successful career in the IT industry. Let us help you achieve your IT goals.  We have a proper way to start your IT journey at codenexus. Providing super enhanced training to students is the responsibility of our highly skilled trainers and IT professionals because we believe our students are future of upcoming It industry so training valuable resources for future is our prior aim. For the accomplishment of this aim we proceed from various steps like doubt sessions our held after class hours which allows students to remove their hurdle point for moving further.
 
                     <div style={{ marginTop: "25px" }} >  </div>
 
 
 
-                    THE <span style={{ fontWeight: '550', color: 'orange' }} > CodeNexus </span> is an Educational and Professional improvement Organization that has been established to propel the product and IT calling by advancing and perceiving demonstrable skill through training, counselling, gatherings and accreditation. Our Professional Dedicated Team guarantees to give you the best of specialization courses under disciplines like Data Science, Machine Learning, Data Mining, Tableau, Text Mining, ReactJS, NodeJS, Angular, Python Programming, Deep Learning, and Java, network protection, programming testing, Cloud Technology, Digital advertising and a lot more with an emphasis on trustworthiness and on the web and Offline learning. We’re attempting to transform our enthusiasm for IT Software Training Platform into a thriving position and occupation situated in the preparing stage without any hesitation at work.
+                    For future job references, we provide certificates showing our IT champs' academic performance after they have completed the courses. And also Codenexus provides a student placement platform to support students' career aspirations and helps to get placed in top MNCs in very limited time span having higher packages. Also we give lifetime support.
 
                     <div style={{ marginTop: "25px" }} >  </div>
 
 
-                    Our objective is your preparation and Skilled Development. We at CodeNexus centres around giving you the best aggregate interface, alongside the best understudy support, to guarantee that you get back to the get-togethers stage.
-                </p>
-
-                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
-                    COURSES AT CodeNexus: A One Stop Solution to Satisfaction
-
-                </li>
-                <div style={{ marginTop: "25px" }} >  </div>
-                <p className='mx-2 px-4' >
-                    <li>
-                        Artificial Intelligence
-                    </li>
-                    <li>
-                        JAVA
-                    </li>
-                    <li>
-                        Machine Learning
-                    </li>
-                    <li>
-                        Software Testing
-                    </li>
-                    <li>
-                        Python
-                    </li>
-                    <li>
-                        AWS
-                    </li>
-                    <li>
-                        Data Analytics
-                    </li>
-                </p>
-                <div style={{ marginTop: "25px" }} >  </div>
-                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
-                    OUR MENTORS:
-                </li>
-
-                <div style={{ marginTop: "25px" }} >  </div>
-                <p className='mx-2 px-4'  >
-                    Guides assume a fundamental part in an establishment, the degree of instruction, advancement of understudy’s abilities depend on their mentors. Assuming you don’t have a decent tutor, you may lag in numerous things from others, and that is the reason we at CodeNexus give you the office of talented representatives so you don’t feel unstable about the scholastics.
-
-                </p>
-
-                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
-                    CORPORATE TRAINING: CodeNexus AS your Best Software Development Assistant
-
-                </li>
-
-                <div style={{ marginTop: "25px" }} >  </div>
-                <p className='mx-2 px-4'  >
-                    CodeNexus works in giving altered preparation to the corporate groups. We are favoured preparing accomplices for 100+ corporate organizations, organizations, including FORTUNE 100 organizations. Drop a directive for coach profiles and current corporate offers.
-
-                </p>
-
-                <div style={{ marginTop: "25px" }} >  </div>
-                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
-                    CORPORATE TRAINING: CodeNexus AS your Best Software Development Assistant
-
-                </li>
-
-                <div style={{ marginTop: "25px" }} >  </div>
-                <p className='mx-2 px-4'  >
-                    CodeNexus works in giving altered preparation to the corporate groups. We are favoured preparing accomplices for 100+ corporate organizations, organizations, including FORTUNE 100 organizations. Drop a directive for coach profiles and current corporate offers.
-
-                </p>
-                <div style={{ marginTop: "25px" }} >  </div>
-
-                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
-                    CodeNexus –As the Best in Class of Institutes at Noida:
-                </li>
-                <div style={{ marginTop: "25px" }} >  </div>
-                <p className=' mx-2 px-4' >
-                    We additionally connect students to programming organizations through our Excellent arrangement support program alongside preparing understudies with the most recent innovations and dialects. This technique includes the investigation of the different cases with interviews and the mimicked interviews performed by individuals from partnerships.
-                    <div style={{ marginTop: "25px" }} >  </div>
-                    We being the <span style={{ fontWeight: '50 0', color: 'orange' }} > Best Business Analyst Training Institute in Noida</span>, Ghaziabad plan to lift understudy interest by offering hands-on preparation.
-                </p>
-
-                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
-                    CodeNexus –As the best Informatics Training Institute at Noida:
-                </li>
-                <div style={{ marginTop: "25px" }} >  </div>
-                <p className=' mx-2 px-4' >
-
-
-                    We give preparation for work to the two Freshers and work with the professionals who are proficient in the building industry. We are a reliable institute by giving 100% situation arranged, work arranged, reasonable situated in Noida. Our courses are created by experts to remain yourself before the business great practices bend. The modules upheld research considers guarantee students practice substantial executions close to the theoretical standards. Moreover, new courses are consistently acquainted and old ones proceed with advance as per development. A significant degree of commitment and private center is given by the restricted cluster size and individual direction.
-                    <div style={{ marginTop: "25px" }} >  </div>
-                    We as the Best in the Class section is comprehensive of acclimatized research that includes active studios and audit practices on genuine organization datasets, patterns in the business.
-                    <div style={{ marginTop: "25px" }} >  </div>
-                </p>
-
-                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
-
-                    CodeNexus – As the leading Trustworthy Institute at Noida:
-                </li>
-                <div style={{ marginTop: "25px" }} >  </div>
-                <p className=' mx-2 px-4' >
-                    We construct dependable engineers who think outside mechanical positions and step towards their developments into self-made business projects. We at CodeNexus put stock in the best Internet of Things (IoT) ability and inventive reasoning which gives designers trust in making their ideas into genuine encounters.
-                    <div style={{ marginTop: "25px" }} >  </div>
-
-                    With the web entrance in India netting very 40% and further expanding month to month quickly, there could be no greater chance to begin your vocation as a Digital Intern.
-
-                    <div style={{ marginTop: "25px" }} >  </div>
-
-                    <span style={{ fontWeight: "bold" }} >CodeNexus</span> -  As the Proficient Digital Training Institutes puts stock in the Vision – “Preparing that makes Difference”. Utilizing understudy agreeable terms and progressed preparing procedures, propelling their Career Options.
-
-                    <div style={{ marginTop: "25px" }} >  </div>
-                    <li>Study hall</li>
-                    <li>Disconnected Training</li>
-                    <li>Teacher – Led Online live training.</li>
-                    <li>10+ years of Experience in Education and Training</li>
-                    <li>Emphasizes on Job & Skill Development Courses</li>
-                    <li>Dedicated Centralized Placement Division</li>
-                    <li>Associated Corporate Trainers</li>
-                </p>
-
-                <div style={{ marginTop: "25px" }} >  </div>
-                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
-                    The Pre-famous and Foremost Valuable Institutes at Noida, India:
-                </li>
-                <div style={{ marginTop: "25px" }} >  </div>
-
-                <p className=' mx-2 px-4' >
-                    CodeNexus is a preparation self-starter stalwart contribution preparing on innovation consultancy benefits on IT advances, Software Testing administrations as an Independent Verification and Validation specialist organization. We at CodeNexus give you the arrangement of skilled representatives with the goal that you don’t feel unstable about scholastics.
                 </p>
 
 
+                <div style={{ marginTop: "25px" }} >  </div>
+
+
                 <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
-                    WHY CHOOSE CodeNexus AS YOUR TRAINER IN DEVELOPMENT OF SUCCESS:
+                    Why Choose Us?
                 </li>
                 <div style={{ marginTop: "25px" }} >  </div>
                 <p className=' mx-2 px-4' >
                     CodeNexus constructs Future. Our recipe of progress is the establishment of the conviction that there is a boss in each understudy standing by to be found. Since its initiation, CodeNexus has attempted to bring the best whether they are the most famous mentors, the most exhaustive investigation material, or the exceptional preparing system. We guarantee and keep on being the main Business Analyst and Digital Training Institutes, in Noida wide among the rest with all our students.
                     <div style={{ marginTop: "25px" }} >  </div>
-                    We are proposing preparing accomplices for 100+ corporate organizations, including FORTUNE 100 organizations. We have Strong Connections with all around the Global MNCs building solid networking on International Borders too. With our positive and deciding quality and cost-viability philosophy, we stand apart as an establishment with a distinction, and the one that has been effective in changing the existences of people who wish to leave an imprint in the field of Digital Technology. We give the best and Guaranteed Placement in the famous created MNCs driving business with its innovation to a higher level.
+                    Here is what we give our It champions:
+                    <p className=' mx-2 px-4' >
+
+
+                        <div style={{ marginTop: "25px" }} >  </div>
+                        <li>Innovation</li>
+                        <li>Expert Team</li>
+                        <li>Quality Assurance</li>
+                        <li>24/7 Lifetime support</li>
+                        <li>Free demo class before enrollment</li>
+                        <li>100% Placement assistance in top MNCs </li>
+                    </p>
+                    <div style={{ marginTop: "25px" }} >  </div>
+                    We are passionate about educating our upcoming youth and generations about software engineering and securing their high paying jobs in IT sector. We believe in staying ahead of the curve and continuously improving our courses as per changes in trends in real world. Innovation is at the core of what we do. Our rigorous quality assurance processes ensure that every program or course knowledge that we deliver is of the highest standard and meets industry best practices. Our team of committed experts works to address our students' needs pertaining to any specific issue and aids them in achieving their objectives in software engineering in a program or courses chosen by them.
+                    <div style={{ marginTop: "25px" }} >  </div>
+                </p>
+                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
+                    Who We Are?
+                </li>
+                <div style={{ marginTop: "25px" }} >  </div>
+                <p className=' mx-2 px-4' >
+                    Welcome to Codenexus One of the leading IT software training institutes in Delhi NCR! Codenexus is a Registered Software Training Institute. We train scholars of both belongings from local regions as well as from all over the PAN India for a variety of nationally recognized professional IT software courses.
+                    <div style={{ marginTop: "25px" }} >  </div>
+
+                    On your enrollment with us, you'll be given opportunity to join hundreds of other IT job searchers and professionals who have been placed at top MNCs and have been promoted after completion of training with us. We provide a proposal of training to boost and develop our scholar’s IT Skills that would make them grow faster in their career and help them to stand out from the crowd. Our modernized and smooth-running course delivery model, we ensure that you thoroughly learn the information given by us and develop useful skills in your chosen courses.
+                    <div style={{ marginTop: "25px" }} >  </div>
+                </p>
+
+                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
+                    Who We Are?
+                </li>
+                <div style={{ marginTop: "25px" }} >  </div>
+                <p className=' mx-2 px-4' >
+                    At Codenexus, we offer top-recognized software IT courses. Our programs are designed to equip students with the tools they need to achieve success in the future. Whether you are a recent college graduate or an experienced IT professional, completing our certificates and programs can help you to move further your career. We have just the right solution for your IT needs so don't wait any longer - book a demo class now by clicking the link below!
+                    <div style={{ marginTop: "25px" }} >  </div>
                 </p>
                 <div style={{ marginTop: "25px" }} >  </div>
 
-                <Carousel />
-
-
-
-
+                <h1>Our Values</h1>
+                <p>
+                    <div className=' mx-2 px-4'>
+                        <li>  <span style={{ fontWeight: "bold", textDecoration: "underline" }}> Integrity:</span>  We conduct our business with the utmost integrity, honesty, and transparency.</li>
+                        <li> <span style={{ fontWeight: "bold", textDecoration: "underline" }}> Excellence:</span> We pursue excellence in our work we do, pushing the boundaries to deliver exceptional results.</li>
+                        <li><span style={{ fontWeight: "bold", textDecoration: "underline" }}> Customer-Centric:</span> Our customers are at the heart of our business. We actively listen to their needs and provide personalized solutions.</li>
+                        <li><span style={{ fontWeight: "bold", textDecoration: "underline" }}> Collaboration:</span> Collaboration is the key to our success. We work together as a cohesive team and foster strong partnerships with our clients.</li>
+                    </div>
+                </p>
 
             </div >
+            <AboutusCards />
+            <div style={{ marginTop: "75px" }} >  </div>
+            <Carousel />
 
         </>
 
