@@ -1,0 +1,15 @@
+.introHeader {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', sans-serif;
+}
+
+.introBody {
+    margin-top: 0.5rem;
+    font-size: 20px;
+    color: #545454;
+    font-family:'Trebuchet MS', sans-serif;
+}

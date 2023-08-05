@@ -1,0 +1,12 @@
+.all-courses-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .all-courses-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  

@@ -1,0 +1,67 @@
+.image-container {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.rotate-image {
+    animation: rotate 5s linear infinite alternate;
+    /* Set the desired rotation duration */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.crousel-text {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+
+.register-btn {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #2B4EEf;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+
+.reading-image-container {
+  position: relative;
+}
+
+.reading-image {
+  height: 100%;
+  width: 100%;
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  left: -25px; /* Adjust the left position as needed */
+  transform: translate(-50%, -50%);
+  background-image: url("../images/dot.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem; /* Adjust the size of the dot as needed */
+  height: 10rem;
+  animation: dotMovement 2s ease-in-out infinite alternate;
+}
+
+@keyframes dotMovement {
+  0% {
+    top: 70%;
+  }
+  100% {
+    top: 50%; /* Adjust the vertical position of the dot at the top */
+  }
+}

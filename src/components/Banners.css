@@ -1,0 +1,24 @@
+.firstBanner {
+    background-image: url("../images/banner-bg-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.secondBanner {
+    background-image: url("../images/banner-bg-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media (max-width: 768px) {
+    .firstImg {
+        display: none;
+    }
+
+    .secondImg {
+        display: none;
+    }
+}

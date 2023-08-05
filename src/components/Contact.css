@@ -1,0 +1,8 @@
+.input {
+    background-color: #F3F4F8; /* Set the initial background color */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+.input:hover {
+    background-color: white; /* Set the background color when the input is focused */
+  }
