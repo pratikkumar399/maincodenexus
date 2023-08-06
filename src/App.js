@@ -8,6 +8,7 @@ import Courses from './pages/Courses';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
+import Internship from './pages/Internship';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/intern" element={<Internship />} />
         </Routes>
       </ContextProvider>
       <Footer />
