@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import './Carousel.css';
+// import './Carousel.css';
 
 const Carousel = () => {
 

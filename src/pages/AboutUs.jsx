@@ -4,59 +4,37 @@ import aboutus from '../images/aboutusit.jpg'
 import './AboutUs.css'
 import Carousel from '../components/Carousel'
 import AboutusCards from '../utils/AboutusCards'
+import Faq from '../utils/Faq'
+import Testimonials from '../utils/Testimonials'
 
 const AboutUs = () => {
     return (
-        <>
-            <div
-                className="d-flex container-fluid "
-                lc-helper="background"
-                style={{
-                    height: "80vh",
-                    background:
-                        `url(${aboutus})  center / cover no-repeat`
-                }}
-            ></div>
-            <div className="container p-5 bg-light hello_font" style={{ marginTop: "-100px" }}>
-                <div className="row">
-                    {/* /col */}
-                    <div className=" mx-4 col-md-12">
-                        <div className="lc-block ">
-                            <div editable="rich">
-                                <p className="display-4">
-                                    CodeNexus A Global Training Institute
-                                </p>
-                            </div>
+        <div>
+
+            <div className="back" style={{
+                height: "70vh",
+                background: `url(${aboutus}) center / cover no-repeat`,
+                margin: "5rem",
+                paddingTop: "15rem",  // Adjusted padding for responsiveness
+                borderRadius: "1rem",
+                boxShadow: "41px 41px 82px #bebebe, -41px -41px 82px #ffffff",
+            }}>
+                <section className="py-4 py-md-12">
+                    <div className="container">
+                        <div className="mx-auto text-center">
+                            <h1 className="text-center h1 mb-2">
+                                About Us
+                            </h1>
+
                         </div>
-                        {/* /lc-block */}
                     </div>
-                    {/* /col */}
-                </div>
-                <div className="row">
-                    <div className="col-md-9 offset-md-1">
-                        <div className="lc-block mt-5">
-                            <div editable="rich">
-                                <p className="lead text-secondary">
-                                    {" "}
-                                    At codenexus we offer IT software courses. The purpose of our training programs is to prepare our upcoming IT software engineers for a successful career in the IT industry. &nbsp;
-                                </p>
-                                <p className="lead text-secondary">
-                                    For the accomplishment of this aim we proceed from various steps like doubt sessions our held after class hours which allows students to remove their hurdle point for moving further.{" "}
-                                </p>
-                            </div>
-                        </div>
-                        {/* /lc-block */}
-                    </div>
-
-
-                    {/* /col */}
-                </div>
-
+                </section>
             </div>
+
             <div className='m-5 hello_font' >
-                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
+                <h3 className='mx-2 px-4' style={{ fontWeight: "bold", textDecoration: "underline" }}>
                     What CODENEXUS Does?
-                </li>
+                </h3>
                 <p className='mx-2 px-4' >
 
                     <div style={{ marginTop: "25px" }} >  </div>
@@ -80,9 +58,9 @@ const AboutUs = () => {
                 <div style={{ marginTop: "25px" }} >  </div>
 
 
-                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
+                <h3 className='mx-2 px-4' style={{ fontWeight: "bold", textDecoration: "underline" }}>
                     Why Choose Us?
-                </li>
+                </h3>
                 <div style={{ marginTop: "25px" }} >  </div>
                 <p className=' mx-2 px-4' >
                     CodeNexus constructs Future. Our recipe of progress is the establishment of the conviction that there is a boss in each understudy standing by to be found. Since its initiation, CodeNexus has attempted to bring the best whether they are the most famous mentors, the most exhaustive investigation material, or the exceptional preparing system. We guarantee and keep on being the main Business Analyst and Digital Training Institutes, in Noida wide among the rest with all our students.
@@ -103,9 +81,9 @@ const AboutUs = () => {
                     We are passionate about educating our upcoming youth and generations about software engineering and securing their high paying jobs in IT sector. We believe in staying ahead of the curve and continuously improving our courses as per changes in trends in real world. Innovation is at the core of what we do. Our rigorous quality assurance processes ensure that every program or course knowledge that we deliver is of the highest standard and meets industry best practices. Our team of committed experts works to address our students' needs pertaining to any specific issue and aids them in achieving their objectives in software engineering in a program or courses chosen by them.
                     <div style={{ marginTop: "25px" }} >  </div>
                 </p>
-                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
+                <h3 className='mx-2 px-4' style={{ fontWeight: "bold", textDecoration: "underline" }}>
                     Who We Are?
-                </li>
+                </h3>
                 <div style={{ marginTop: "25px" }} >  </div>
                 <p className=' mx-2 px-4' >
                     Welcome to Codenexus One of the leading IT software training institutes in Delhi NCR! Codenexus is a Registered Software Training Institute. We train scholars of both belongings from local regions as well as from all over the PAN India for a variety of nationally recognized professional IT software courses.
@@ -115,9 +93,9 @@ const AboutUs = () => {
                     <div style={{ marginTop: "25px" }} >  </div>
                 </p>
 
-                <li style={{ fontWeight: "bold", textDecoration: "underline" }}>
+                <h3 className='mx-2 px-4' style={{ fontWeight: "bold", textDecoration: "underline" }}>
                     Who We Are?
-                </li>
+                </h3>
                 <div style={{ marginTop: "25px" }} >  </div>
                 <p className=' mx-2 px-4' >
                     At Codenexus, we offer top-recognized software IT courses. Our programs are designed to equip students with the tools they need to achieve success in the future. Whether you are a recent college graduate or an experienced IT professional, completing our certificates and programs can help you to move further your career. We have just the right solution for your IT needs so don't wait any longer - book a demo class now by clicking the link below!
@@ -125,7 +103,7 @@ const AboutUs = () => {
                 </p>
                 <div style={{ marginTop: "25px" }} >  </div>
 
-                <h1>Our Values</h1>
+                <h3 className='mx-2 px-4'>Our Values</h3>
                 <p>
                     <div className=' mx-2 px-4'>
                         <li>  <span style={{ fontWeight: "bold", textDecoration: "underline" }}> Integrity:</span>  We conduct our business with the utmost integrity, honesty, and transparency.</li>
@@ -136,11 +114,43 @@ const AboutUs = () => {
                 </p>
 
             </div >
-            <AboutusCards />
             <div style={{ marginTop: "75px" }} >  </div>
-            <Carousel />
 
-        </>
+            <div className="center">
+                {/* center text */}
+                <h1 style={{ color: "orange", textAlign: "center" }}>Our Team</h1>
+            </div>
+            <div style={{ marginTop: "75px" }} >  </div>
+
+            <div style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+            }}>
+                <div style={{ marginLeft: "25px" }} >  </div>
+                <AboutusCards
+
+                    info={"This is the info of the card 1"}
+
+                />
+                <div style={{ marginRight: "25px" }} >  </div>
+
+                <AboutusCards
+                    info={"This is the info of the card 1"}
+                />
+                <div style={{ marginRight: "25px" }} >  </div>
+                <AboutusCards
+                    info={"This is the info of the card 1"} />
+                <div style={{ marginRight: "25px" }} >  </div>
+            </div>
+
+
+            <div style={{ marginTop: "75px" }} >  </div>
+
+            <Faq />
+
+
+        </div >
 
     )
 }

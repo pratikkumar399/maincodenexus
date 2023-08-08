@@ -1,20 +1,20 @@
 import React from 'react'
-
-const AboutusCards = () => {
+import { Link } from 'react-router-dom'
+import './Aboutus.css'
+import bannerimg from '../images/banner-img-2.png'
+const AboutusCards = ({ info }) => {
     return (
-        <div>
 
-            <div style={{ fontWeight: '550', color: 'orange' }} className="text-center">THE MODERN WAY TO LEARN!</div>
-            <h2 className="text-center" style={{ fontWeight: '600' }}>
-                CodeNexus proudly teaching online
-                <br />
-                courses with online
-                experts throughout the world
-                <br />
-                for the past 10 years.
-            </h2>
-
+        <div className="card1">
+            <img src={bannerimg} alt="" />
+            <div className="card__content">
+                <p className="card__title">Card Title</p>
+                <p className="card__description">
+                    {info}
+                </p>
+            </div>
         </div>
+
     )
 }
 

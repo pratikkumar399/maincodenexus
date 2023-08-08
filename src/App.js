@@ -27,7 +27,7 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<AboutUs />} />
-          <Route path="/intern" element={<Internship />} />
+          <Route path="/internship" element={<Internship />} />
         </Routes>
       </ContextProvider>
       <Footer />
