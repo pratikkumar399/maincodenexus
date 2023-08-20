@@ -1,0 +1,32 @@
+/* Cards.css */
+
+.background {
+    background-image: url('../images/backgroundcards.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+    max-width: 100vw;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Apply a scaling effect on hover */
+}
+
+.card-img {
+    max-height: 300px;
+    margin-bottom: 20px;
+}
+
+/* Add space between rows */
+.mb-4 {
+    margin-bottom: 1rem !important;
+}
+

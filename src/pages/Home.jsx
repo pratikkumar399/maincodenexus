@@ -6,6 +6,7 @@ import Placements from '../components/Placements'
 import PlacedInput from '../components/PlacedInput'
 import Intro from '../components/Intro'
 import Carousel from '../components/Carousel'
+import CardPage from './CardPage'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Intro />
       <Brands />
       <CoursesHome />
+      <CardPage />
       {/* <PlacedInput /> */}
       <Carousel />
       <Placements />

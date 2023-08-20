@@ -88,6 +88,12 @@ const Navbar = () => {
                 <Link className="nav-link" to="/internship" style={{ fontWeight: '400', color: 'purple' }} >Internship</Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="/cardpage" style={{ fontWeight: '400', color: 'purple' }} >CardPage</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/training" style={{ fontWeight: '400', color: 'purple' }} >Summer Training</Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link" target="_blank" to="https://blog.codenexusindia.com/" style={{ fontWeight: '400', color: 'purple' }}>Blog</Link>
               </li>
               <li className="nav-item">

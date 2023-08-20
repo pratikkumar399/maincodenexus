@@ -9,7 +9,7 @@ import Testimonials from '../utils/Testimonials'
 
 const AboutUs = () => {
     return (
-        <div>
+        <div >
 
             <div className="back" style={{
                 height: "70vh",

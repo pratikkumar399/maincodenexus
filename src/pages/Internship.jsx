@@ -3,28 +3,31 @@ import { Link } from 'react-router-dom'
 import aboutus from '../images/aboutusit.jpg'
 import './AboutUs.css'
 import AboutusCards from '../utils/AboutusCards';
+import internship from '../images/internship.jpg'
 
 const Internship = () => {
     return (
         <>
 
             {/* Hero */}
-            <div
-                className="p-5 text-center bg-image rounded-3"
-                style={{
-                    backgroundImage:
-                        `url(${aboutus})`,
-                    height: 400
-                }}
-            >
-                <div className="d-flex justify-content-center align-items-center h-100" >
-                    <div >
-                        <div className="text-white">
-                            <h1 className="mb-3">Internship</h1>
+            <div className="back" style={{
+                height: "90vh",
+                background: `url(${internship}) center / cover no-repeat`,
+                margin: "5rem",
+                paddingTop: "15rem",  // Adjusted padding for responsiveness
+                borderRadius: "1rem",
+                boxShadow: "41px 41px 82px #bebebe, -41px -41px 82px #ffffff",
+            }}>
+                <section className="py-4 py-md-12">
+                    <div className="container">
+                        <div className="mx-auto text-center">
+                            <h1 className="text-center h1 mb-2">
+
+                            </h1>
 
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
             {/* Hero */}
 
@@ -207,7 +210,6 @@ const Internship = () => {
 
 
             </div >
-            <AboutusCards />
             <div style={{ marginTop: "75px" }} >  </div>
             {/* <Carousel /> */}
 
